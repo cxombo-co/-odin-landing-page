@@ -4,7 +4,7 @@
 
 .menu-outer {
     display: flex;
-    height: auto;
+    height: 65vh;
 }
 
 #header-logo {
@@ -118,13 +118,13 @@
 
 .middle-web {
     display: flex;
-    height: 400px;
+    height: 425px;
     flex-wrap: wrap;
 }
 
 .middle-title {
     display: flex;
-
+    margin-bottom: -10px;
     width: 100%;
     height: 100px;
     font-family: 'Roboto';
@@ -162,4 +162,102 @@ figcaption {
     text-align: center;
     font-family: 'Roboto';
     margin-top: 6px;
+}
+
+.second-middle {
+    display: flex;
+    height: 50vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+}
+
+.quote {
+    display: flex;
+    font-size: 36px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #1f2937;
+    width: 140vh;
+    font-style: italic;
+}
+
+.author {
+    display: flex;
+    margin-left: 100vh;
+    font-size: 26px;
+    font-family: Roboto;
+    font-weight: 900;
+}
+
+.third-middle {
+    display: flex;
+    height: 45vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-box {
+    display: flex;
+    background-color: #3882f6;
+    width: 140vh;
+    height: 20vh;
+    border-radius: 6px;
+}
+
+.blue-box > .blue-left {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.big-text {
+    display: flex;
+    width: 50vh;
+    color: #f9faf8;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+    width: 70vh;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.small-text {
+    display: flex;
+    color: #f9faf8;
+    width: 70vh;
+    font-size:14px;
+    font-family: 'Roboto';
+}
+
+.blue-box > .blue-right {
+    display: flex;
+    width: 30vh;
+    min-width: 30vh;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.button-third {
+    display: flex;
+    width: 15vh;
+    text-align: center;
+    justify-content: center;
+    padding: 0.75vh;
+    background-color: #3882f6;
+    border: solid;
+    border-radius: 8px;
+    border-width: 0.125rem;
+    border-color: #f9faf8;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: bold;
+    color: #f9faf8;
 }
