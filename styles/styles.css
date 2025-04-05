@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+}
+
+.menu-outer {
+    display: flex;
+    height: auto;
+}
+
+#header-logo {
+    flex-direction: row;
+    width: 400px;
+    margin-left: 100px;
+    color: #f9faf8;
+    font-size: 24px;
+    margin-bottom: 100px;
+    margin-top: 24px;
+
+}
+
+
+.menu-left {
+    display: flex;
+    background-color: #1F2937;
+    border-color: red;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    min-width: 50%;
+    font-family: 'Roboto';
+}
+
+.menu-right {
+    display: flex;
+    background-color: #1F2937;
+    border-color: cyan;
+    flex-grow: 1;
+    min-width: 50%;
+    flex-wrap: wrap;
+}
+
+.signup-box {
+    display: flex;
+    width: 450px;
+    margin-left: 100px;
+    flex-wrap: wrap;
+}
+
+
+.signup-text {
+    font-size: 18px;
+    color: #e5e7eb;
+    width: 450px;
+    height: 100px;
+    margin-top: -110px;
+}
+
+.big-signup {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.signup-button {
+    display: flex;
+    width: 125px;
+    justify-content: center;
+    border-radius: 8px;
+    margin-top: -145px;
+    height: 35px;
+    background-color: #3882f6;
+    border-color: #3882f6;
+    color: #f9faf8;
+    font-family: 'Roboto';
+    font-weight: bold;
+    flex-direction: column;
+}
+
+.signup-box {
+    height: 450px;
+}
+
+.menu-links {
+    display: flex;
+    border-color: green;
+    width: 523px;
+    flex-direction: row;
+    margin-top: 24px;
+    height: 29px;
+    max-height: 29px;
+    flex-grow: 1;
+}
+
+.menu-links > ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    flex-grow: 1;
+    gap: 20px;
+    align-self: center;
+    color: #e5e7eb;
+    height: 20px;
+    margin-right: 100px;
+    font-family: 'Roboto';
+}
+
+.image-box {
+    display: flex; /* Enables Flexbox layout */
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+    margin-top: -122px;
+    height: 226px;
+    max-height: 226px;
+    width: 530px;
+    background-color: #e5e7eb;
+    font-family: 'Roboto';
+}
+
