@@ -1,5 +1,7 @@
 * {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .menu-outer {
@@ -9,12 +11,15 @@
 
 #header-logo {
     flex-direction: row;
-    width: 400px;
-    margin-left: 100px;
+    max-width: 45vw;
+    width: 30vw;
+    margin-left: 6.5rem;
     color: #f9faf8;
-    font-size: 24px;
+    font-size: clamp(1rem, 2vw, 2rem);
     margin-bottom: 100px;
     margin-top: 24px;
+    flex-grow: 
+    
 
 }
 
@@ -22,7 +27,6 @@
 .menu-left {
     display: flex;
     background-color: #1F2937;
-    border-color: red;
     flex-wrap: wrap;
     flex-grow: 1;
     min-width: 50%;
@@ -40,33 +44,37 @@
 
 .signup-box {
     display: flex;
-    width: 450px;
-    margin-left: 100px;
+    width: 40vw;
+    margin-left: 6.5rem;
     flex-wrap: wrap;
+    height: 40vh;
 }
 
 
 .signup-text {
-    font-size: 18px;
+    display: flex;
+    height: auto;
+    font-size: clamp(1.25rem, 1vw, 3rem);
     color: #e5e7eb;
-    width: 450px;
-    height: 100px;
-    margin-top: -110px;
+    min-width: 30vw;
+    height: 20vh;
+    margin-top: -4vh;
 }
 
 .big-signup {
-    font-size: 48px;
+    display: flex;
+    font-size: clamp(1.5rem, 4vw, 3rem);
     color: #f9faf8;
     font-weight: 900;
 }
 
 .signup-button {
     display: flex;
-    width: 125px;
+    width: 8vw;
     justify-content: center;
     border-radius: 8px;
-    margin-top: -145px;
-    height: 35px;
+    margin-top: -11vh;
+    height: 5vh;
     background-color: #3882f6;
     border-color: #3882f6;
     color: #f9faf8;
@@ -75,9 +83,6 @@
     flex-direction: column;
 }
 
-.signup-box {
-    height: 450px;
-}
 
 .menu-links {
     display: flex;
@@ -108,10 +113,10 @@
     display: flex; /* Enables Flexbox layout */
     justify-content: center; /* Centers content horizontally */
     align-items: center; /* Centers content vertically */
-    margin-top: -122px;
-    height: 226px;
-    max-height: 226px;
-    width: 530px;
+    margin-top: 2vh;
+    height: 35vh;
+    width: 40vw;
+    object-fit: cover;
     background-color: #e5e7eb;
     font-family: 'Roboto';
 }
@@ -259,5 +264,22 @@ figcaption {
     font-family: 'Roboto';
     font-size: 14px;
     font-weight: bold;
+    color: #f9faf8;
+}
+
+.copyright-bottom {
+    display: flex;
+    height: 10vh;
+    background-color: #1f2937;
+    
+}
+
+.copyright-text {
+    display: flex;
+    font-family: 'Roboto';
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+    text-align: center;
     color: #f9faf8;
 }
